@@ -23,11 +23,11 @@ export class Clock extends React.Component {
     
     render() {
       return(
-        <div className={"clock " + this.props.className + ""}>
+        <div className={"clock " + this.props.className}>
           <div className="arrow-wrapper">
-             <Arrow angle={this.state.arrowsPosition['secondArrow']} class="secArrow" />
-             <Arrow angle={this.state.arrowsPosition['minuteArrow']} class="minArrow" />
-             <Arrow angle={this.state.arrowsPosition['hourArrow']} class="hourArrow" />
+             <Arrow angle={this.state.arrowsPosition['secondArrow']} className="secArrow" />
+             <Arrow angle={this.state.arrowsPosition['minuteArrow']} className="minArrow" />
+             <Arrow angle={this.state.arrowsPosition['hourArrow']} className="hourArrow" />
           </div>
           <div className="clock-center"></div>
         </div>
