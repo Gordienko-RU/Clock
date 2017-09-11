@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Clock} from './clock.js';
-
+import {Clock} from './clock/clock.jsx';
+import style from './style.css';
 
 ReactDOM.render(
   <Clock option={{
-    size: '100px'
+    class:'clock-blue'
   }}/>,
   document.querySelector('#root')
 )
