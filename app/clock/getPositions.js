@@ -4,10 +4,10 @@ const HOUR_STEP = 30;
 
 export const getCurrentPosition = function() {
     const currentDate = new Date();
-    const startPositions =[];
-    startPositions.push(currentDate.getSeconds() * SEC_STEP);
-    startPositions.push(currentDate.getMinutes() * MIN_STEP);
-    startPositions.push(currentDate.getHours() > 12 ? (currentDate.getHours() - 12) * HOUR_STEP : currentDate.getHours() * HOUR_STEP);
-    return(startPositions);
+    return {
+      secondArrow: currentDate.getSeconds() * SEC_STEP,
+      minuteArrow: currentDate.getMinutes() * MIN_STEP,
+      hourArrow: currentDate.getHours() > 12 ? (currentDate.getHours() - 12) * HOUR_STEP : currentDate.getHours() * HOUR_STEP
+    }
 };
 

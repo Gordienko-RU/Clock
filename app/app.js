@@ -5,7 +5,7 @@ import style from './style.css';
 
 ReactDOM.render(
   <Clock option={{
-    class:'clock-blue'
+    className:'clock-blue'
   }}/>,
   document.querySelector('#root')
 )
