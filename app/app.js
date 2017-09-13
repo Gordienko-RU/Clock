@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Clock} from './clock/clock.jsx';
+import {Clock} from './clock/Clock.jsx';
 import './style.css';
 
 ReactDOM.render(

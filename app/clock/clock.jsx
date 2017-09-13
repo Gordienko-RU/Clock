@@ -1,5 +1,5 @@
 import React from 'react';
-import {Arrow} from './arrow.jsx';
+import {Arrow} from './Arrow.jsx';
 import {getCurrentPosition} from './getPositions.js';
 
 export class Clock extends React.Component {
