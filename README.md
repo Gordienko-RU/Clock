@@ -1,2 +1,2 @@
 # Clock
-Simple react components
+Simple react component
